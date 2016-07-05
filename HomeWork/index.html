@@ -14,7 +14,7 @@
 			<ul class="menu2">
 
 				<li class="flag"><a href="#">Minhas Ofertas</a></li>
-				<li><a href="#">Ola!Entrar ou Cadastre-se</a></li>
+				<li class="active"><a href="index.html">Ola!Entrar ou Cadastre-se</a></li>
 			</ul>
 			<ul class="menu1">
 				<li><a href="#">Meu YouBike</a></li>
@@ -43,28 +43,19 @@
 			</div>
 
 			<form method="" action="#">
-				<input type="text" name="first_name" placeholder="First Name" class="field_input" >
+				<input type="text" name="first_name" placeholder="First Name" class="field_input" required>
+				<input type="text" name="last_name" placeholder="Last Name" class="field_input" required>
+				<input type="email" name="email" placeholder="Email Adress" class="field_input" required>
+				<input type="password" name="password" placeholder="Choose Password" class="field_input" required>
+				<input type="password" name="password" placeholder="Password Confirm" class="field_input" required>
+				<div class="Send_me">
+					<input type="checkbox" name=" " value=" ">
+					<label for="Send_me">Send me Youbike updates and tips</label>
+				</div>
+				<input type="submit" value="Create My Account" class="acount">
 			</form>
-			<form method="" action="#">
-				<input type="text" name="last_name" placeholder="Last Name" class="field_input" >
-			</form>
-			<form method="" action="#">
-				<input type="email" name="email" placeholder="Email Adress" class="field_input" >
-			</form>
-			<form method="" action="#">
-				<input type="password" name="password" placeholder="Choose Password" class="field_input" >
-			</form>
-			<form method="" action="#">
-				<input type="password" name="password" placeholder="Password Confirm" class="field_input" >
-			</form>
-			<div class="Send_me">
-				<input type="checkbox" name=" " value=" ">
-				<label for="Send_me">Send me Youbike updates and tips</label>
-			</div>
-			<div class="acount">
-				
-				<button>Create My Account</button> 
-			</div>
+			
+			
 			<div class="by_click">
 				<p>By cliking the button above, you agree to the Terms of Service.</p>
 				<p>Xiew our Privacy Policy.</p>

@@ -92,7 +92,12 @@ hr {
 	
 }
 .menu2 li:last-child {
+	
 	width: 190px;
+}
+.active {
+	background: linear-gradient(to top, #2e7ac4, #51b1dc);
+	
 }
 
 .menu2 a,
@@ -107,7 +112,9 @@ hr {
 }
 .menu2 a:hover {
 	background: linear-gradient(to top, #2e7ac4, #51b1dc);
+	text-decoration: underline;
 }
+
 /*MAIN*/
 main {
 	padding-top: 200px;
@@ -163,9 +170,11 @@ main {
 }
 
 form {
-	padding-top: 20px;
+	
+	padding-left: 7px;
 }
 .field_input {
+	margin-top: 20px;
 	font-size: 14px;
 	width: 257px;
 	height: 35px;
@@ -201,12 +210,10 @@ input[type=checkbox] {
 	background: white;
 }
 
-.acount {
-	padding-top: 25px;
 
-}
 
-button {
+input[type=submit] {
+	margin-top: 25px;
 	width: 150px;
 	height: 36px;
 	color: white;
